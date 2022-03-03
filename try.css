@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+ul {
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    list-style-type: none;
+    margin-left: 78px;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.logo {
+    color: red;
+    margin-left: 0;
+    size: 100px;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+ul a:hover {
+    color: orangered;
+    font-size: large;
+}
+
+.h {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 50px;
+    font-size: xx-large;
+
+}
+
+.h6 {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 200px;
+}
+
+.search {
+    margin-left: 200px;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 140px;
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    justify-content: center;
+
+}
+
+.btn:hover {
+    font-size: x-large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search1 {
+    position: relative;
+    background: rgb(38, 198, 247);
+    color: whitesmoke;
+    width: 70px;
+    height: 28px;
+    margin-right: 8px;
+    border: none;
+}
+
+.search1:hover {
+
+    width: 80px;
+    height: 35px;
+}
+
+.log {
+    color: orangered;
+    width: 250px;
+    height: 40px;
+    list-style-type: none;
+    border-radius: 20px;
+}
+
+.login {
+    color: orangered;
+    width: 250px;
+    height: 40px;
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: orangered;
+}
+
+.login :hover {
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(1, 41, 5)
+}
+
+.inputs {
+    position: absolute;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(56, 50, 50);
+    /* margin-top: -350px; */
+    /* margin-left: 950px; */
+    width: 350px;
+    height: 450px;
+
+}
+
+.final {
+    color: white;
+}
+
+.icons {
+    margin-left: 15px;
+}
+
+.icons:hover {
+    color: orangered;
+}
+
+.input {
+    background-color: rgb(56, 50, 50);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: orangered;
+    outline: none;
+    color: lightseagreen;
+}
+
+body {
+    background-color: rgb(131, 141, 141);
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        background-color: rgb(128, 118, 118);
+        color: white;
+
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        top: 10px;
+    }
+
+
+    .mobile_img {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    /* 
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .col-sm-8 {
+        display: flex;
+        min-width: 100%;
+
+
+    }
+
+    .col-sm-8 .mobile_title {
+        text-align: center;
+    }
+
+    .mobile_btn {
+        margin-left: 200px;
+    }
+
+    .col-sm-8 button {
+        margin-top: 150px;
+    }
+
+    .inputs {
+        margin-top: 362px;
+        margin-left: 88px;
+
+    }
+
+
+
+}
